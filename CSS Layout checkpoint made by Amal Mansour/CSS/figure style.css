@@ -1,0 +1,40 @@
+
+
+.small-images{
+    width: 300px;
+height: 350px;
+}
+
+
+.small-button{
+    color: #fff;
+background: hsl(214, 74%, 57%);;
+font-size: 10px;
+padding: 8px 20px;
+border-radius: 8px;
+text-transform: uppercase;
+}
+
+figcaption{
+font-size: 19px;
+font-weight: 400;
+line-height: 1.6666666667;
+padding: 1.1111111111em;
+}
+
+
+
+.my-figure{
+    display:flex;
+    flex-wrap:  wrap;  
+    justify-content: center;    
+}
+
+.legend{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+

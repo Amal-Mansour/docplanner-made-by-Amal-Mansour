@@ -1,0 +1,35 @@
+
+/* style the footer text and button */
+h4 {
+  font-size: 34px;
+  color: rgb(51 51 51);
+  margin-bottom: 0.75em;
+  font-style: normal;
+}
+
+#btn {
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.1666666667em 1.5em;
+  background: rgb(61 131 223);
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: rgb(255 255 255);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
+ #link
+ {
+     color:white
+ }
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,131 @@
+
+
+/* desin the navabar included a logo and a menu using css proprety and display flex */
+.nav-container{
+  margin:0em;
+  padding:1.33em 0;px
+
+}
+
+
+  
+/* desin the logo  with css proprety and display flex */
+.myLogo {
+  width: 268px;
+  height: 33px;
+}
+
+.myLogo {
+  max-width: 100%;
+  height: auto;
+}
+
+.myLogo {
+  border: 0;
+}
+
+
+
+
+/* the navbar menu  */
+
+#first{
+    color:#00b39b;
+    text-decoration: none;
+}
+
+
+.nav-area >li{
+color: #9e9e9e;
+display: block;
+padding: 0 .6em;
+}
+
+
+
+.nav-color{
+  color: #acacac;
+  font-family: work Sans, Arial, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none; 
+  color: #9b9898;
+  font-family: work Sans, Arial, sans-serif;
+  
+}
+
+.nav-area  a:hover{
+  color:#00b39b
+}
+
+
+/* the dropdown menu of the navbar styled with css proprety and display flex  */
+
+.nav-area .dropdown{
+  
+  position: relative;
+  
+}
+
+
+.nav-area   .dropdown  .dropdown-content {
+  
+  display: none;
+  padding-top:10px;
+  position: absolute;
+  padding: 2px;
+  margin: auto;
+  width: 270px;
+  height: 200px;
+  margin-left:-100px;
+  background:rgb(255 255 255);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+  z-index: 1;
+  
+}
+
+.nav-area .dropdown:hover .dropdown-content {
+  display: block;
+ 
+  
+}  
+
+
+.menu{
+  padding:0.5em;
+text-align: left;
+ list-style: none;
+font-size: .9375rem;
+font-weight: 400;
+line-height: 1.5em;
+
+}
+
+.nav-area .dropdown-content li a:hover {
+  color: #00b39b;
+  box-shadow: #aaa9a7;
+}
+
+
+
+
+.nav-area {
+  display: flex;
+  display: -webkit- flex;
+  display: -moz- flex;
+  display: -ms- flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}

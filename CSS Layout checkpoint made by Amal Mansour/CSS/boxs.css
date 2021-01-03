@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  width: 25px;
+  height: 20px;
+}
+
+.pat {
+  font-size: 1.625em;
+  font-weight: 200;
+  color: #fff;
+  margin: 0.3em 0;
+}
+
+.doc {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
+}
+
+/* style the first box using display flex */
+.flex-box1 {
+  width: 20.33%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #00ccb1;
+  color: white;
+  font-family: Work Sans, Arial, sans-serif;
+  padding: 10px;
+  margin: 10px;
+  height: 320px;
+ 
+
+}
+
+/* style the second box the same way */
+.flex-box2 {
+  width: 20.33%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #3d83df;
+  color: white;
+  font-family: Work Sans, Arial, sans-serif;
+  padding: 10px;
+  margin: 10px;
+  height: 320px;
+
+}
+
+/* style the third box the same way */
+
+.flex-box3 {
+  width: 20.33%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #1b2734;
+  color: white;
+  font-family: Work Sans, Arial, sans-serif;
+  padding: 10px;
+  margin: 10px;
+  height: 320px;
+}
+
+
+
+.flex-box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-container {
+  border-spacing: 15px;
+}
+
+.list {
+  font-size: 1.5em;
+  font-weight: 150;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
+}
+
+/* 
+
+.myList{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end} */
+
+
+.list {
+  height: 40px;
+  color: white;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 0.04em;
+}
+
+.list {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+ /* made an animation with  using css proprety  */
+
+.animated { 
+  
+  animation-duration: 5s; 
+  animation-fill-mode: both; 
+} 
+
+@keyframes fadeInUp { 
+  0% { 
+      opacity: 0; 
+      transform: translateY(20px); 
+  } 
+  100% { 
+      opacity: 1; 
+      transform: translateY(0); 
+  } 
+} 
+
+.fadeInUp { 
+  animation-name: fadeInUp; 
+}

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* 
+style the title and the paragraph with css layout  */
+.intro {
+  font-family: work Sans, Arial, sans-serif;
+  color: #747474;
+}
+
+
+#first {
+  color: #00b39b;
+  font-family: work Sans, Arial, sans-serif;
+}
+
+.logo {
+  width: 40px;
+  height: 39px;
+}
+.into-title {
+  color: #00b39b;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.doc-intro {
+  width: 70%;
+  
+}
+
+.doc-intro {
+  padding: 0 2px;
+  margin:0 -10px;;
+  position: relative;
+}
+
+.doc-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.intro-text {
+  display: flex;
+  margin: 0 10px;
+}
+
+.intro-text p {
+  margin: 0.9em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  font-style: normal;
+  color: #747474;
+}
+/* style of the section 4 with color and  dispaly flex */

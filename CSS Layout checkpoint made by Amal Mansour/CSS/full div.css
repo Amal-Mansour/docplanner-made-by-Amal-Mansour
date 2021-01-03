@@ -1,0 +1,152 @@
+
+/* organize all div container with display flex  */
+.all-div{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* made the style of div  h3 and pargraphe image container with css style proprety */
+.all-div{
+  background:rgb(229 250 248);
+  background-image: linear-gradient(-45deg, rgb(0 204 177 / 1%) 5% rgb(61 199 223 / 10%));
+  padding: 1.875em 0 .625em;
+  overflow: hidden;
+  margin:3.125em auto 5.5rem;
+}
+
+.all-div{
+  width:100%;
+  height: 500px;
+  
+}
+
+
+.logo1{
+  width: 400px;
+  height: 400px;
+
+}
+/* .all-div{
+  width: 100%;
+  height: 100%;
+} */
+.all-div h3{
+   
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0 179 155);
+  margin: .5em 0;
+  letter-spacing: -.3px
+
+}
+/* made the text style of div */
+.header-container  h3{
+   
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0 179 155);
+  margin: .5em 0;
+  letter-spacing: -.3px
+
+}
+
+.all-div p{
+  color :#747474;
+  margin: 1em 0;
+  font-family: Work Sans,Arial,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: -.3px;
+  
+}
+
+
+/* made the position of boxes in div container by grouping them  */
+ .header-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-leader{
+  background:white;
+  width: 200px;
+  height:170px;
+  text-align: center;
+  border-radius:5px;
+  box-shadow:0 1px  4px 0 rgba(0,0,0,.05);
+  padding: 10px;
+  margin:10px;
+  /* font-size: .8125em; */
+}
+
+.box-unique{
+  background:white;
+  width: 200px;
+  height:170px;
+  text-align: center;
+  border-radius:5px;
+  box-shadow:0 1px  4px 0 rgba(0,0,0,.05);
+  padding: 10px;
+  margin:10px;
+  /* font-size: .8125em; */
+}
+
+.box-appointment{
+  background:white;
+  width: 200px;
+  height:170px;
+  text-align: center;
+  border-radius:5px;
+  box-shadow:0 1px  4px 0 rgba(0,0,0,.05);
+  padding: 10px;
+  margin:10px;
+  /* font-size: .8125em; */
+}
+
+.box-active{
+  background:white;
+  width: 200px;
+  height:170px;
+  text-align: center;
+  border-radius:5px;
+  box-shadow:0 1px  4px 0 rgba(0,0,0,.05);
+  padding: 10px;
+  margin:10px;
+
+}
+
+
+
+.group1{
+  position: relative;
+  padding: top 50px;
+  margin-top: 20px;
+  
+  
+}
+
+.group2{
+  position: relative;
+  padding: top 50px;
+  margin-top: 2px;
+  margin-right: 130px;
+  
+}
+
+.group2{
+  position: relative;
+  padding: top -50px;
+}
+
+.container-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* 
+transform: translate(0)
+opacity: 1
+transition: all .35s ease 0s; */
